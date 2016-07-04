@@ -15,12 +15,12 @@
 $(call inherit-product, device/yu/lettuce/full_lettuce.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/krexus/products/common.mk)
+$(call inherit-product, vendor/xos/config/common.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
 
-PRODUCT_NAME := krexus_lettuce
+PRODUCT_NAME := XOS_lettuce
 BOARD_VENDOR := yu
 PRODUCT_DEVICE := lettuce
 

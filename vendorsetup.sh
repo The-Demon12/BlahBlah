@@ -1,1 +1,1 @@
-add_lunch_combo krexus_lettuce-userdebug
+add_lunch_combo XOS_lettuce-userdebug
