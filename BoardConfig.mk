@@ -17,7 +17,5 @@ include device/cyanogen/msm8916-common/BoardConfigCommon.mk
 
 include device/yu/lettuce/board/*.mk
 
-# CMHW
-BOARD_HARDWARE_CLASS += $(DEVICE_PATH)/cmhw
-
+# inherit from proprietary files
 -include vendor/yu/lettuce/BoardConfigVendor.mk
